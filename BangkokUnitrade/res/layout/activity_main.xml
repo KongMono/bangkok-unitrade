@@ -1,0 +1,49 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity" >
+
+    <EditText
+        android:id="@+id/edittxtUserName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/edittxtPassword"
+        android:layout_centerVertical="true"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:ems="10" >
+    </EditText>
+
+    <EditText
+        android:id="@+id/edittxtPassword"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/edittxtUserName"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="57dp"
+        android:ems="10"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:inputType="textPassword" />
+
+    <Button
+        android:id="@+id/btnlogin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/edittxtPassword"
+        android:layout_alignRight="@+id/edittxtPassword"
+        android:layout_below="@+id/edittxtPassword"
+        android:layout_marginTop="65dp"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="login" />
+
+    <TextView
+        android:id="@+id/textforget"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignRight="@+id/btnlogin"
+        android:layout_below="@+id/btnlogin"
+        android:layout_marginTop="21dp"
+        android:text="Forgot your password?"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+</RelativeLayout>

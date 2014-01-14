@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">BangkokUnitrade</string>
+    <string name="action_settings">Settings</string>
+	
+    
+    <string name="list">รายการ</string>
+    <string name="setcase">สั่งชุดเครื่องมือ</string>
+    <string name="checkcase">ตรวจสอบสถานะเครื่องมือ</string>
+    <string name="quotation">ใบเสนอราคา</string>
+    <string name="report">บันทึกรายงาน</string>
+    <string name="catalog">แคตตาล็อก</string>
+    
+    
+    <string-array name=" list_array">
+        <item>@string/setcase</item>
+        <item>@string/checkcase</item>
+        <item>@string/quotation</item>
+        <item>@string/report</item>
+        <item>@string/catalog</item>
+    </string-array>
+     
+
+</resources>
